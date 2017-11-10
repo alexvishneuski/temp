@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_bar_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_bar_panel_height"
+    android:layout_toEndOf="@+id/view"
+    android:layout_toRightOf="@+id/view"
+    android:background="@color/vk_share_top_blue_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="16dp"
+        android:text="Сообщения"
+        android:textColor="@color/vk_white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textScaleX="1"
+        android:typeface="normal"/>
+
+
+
+    <ImageButton
+        android:id="@+id/close_btn"
+        android:layout_width="@dimen/top_bar_panel_height"
+        android:layout_height="@dimen/top_bar_panel_height"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:src="@drawable/ic_ab_app" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="right|center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_add_white_24dp" />
+
+
+</FrameLayout>
